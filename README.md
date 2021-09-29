@@ -1,1 +1,1 @@
-# CppLabs of student IVT-5 group Alexandr Brovw
+# CppLabs of student IVT-5 group Alexandr Brova
