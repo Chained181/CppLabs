@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\FirstLab",
-    "\\FirstLab\\FirstQuestion"
+    "\\FirstLab\\FirstQuestion",
+    "\\FirstLab\\FirstQuestion\\ConsoleApplication1"
   ],
-  "SelectedNode": "\\FirstLab\\FirstQuestion\\ConsoleApplication1.sln",
+  "SelectedNode": "\\FirstLab\\FirstQuestion\\ConsoleApplication1\\ConsoleApplication1.cpp",
   "PreviewInSolutionExplorer": false
 }
