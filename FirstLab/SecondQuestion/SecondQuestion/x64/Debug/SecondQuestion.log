@@ -1,0 +1,4 @@
+﻿  SecondQuestion.cpp
+D:\CPP\CppLabs\FirstLab\SecondQuestion\SecondQuestion\Header.h(12,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\CPP\CppLabs\FirstLab\SecondQuestion\SecondQuestion\Header.h(98,23): warning C4018: <: несоответствие типов со знаком и без знака
+  SecondQuestion.vcxproj -> D:\CPP\CppLabs\FirstLab\SecondQuestion\x64\Debug\SecondQuestion.exe
