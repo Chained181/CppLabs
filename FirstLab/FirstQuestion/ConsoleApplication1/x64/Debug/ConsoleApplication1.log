@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+D:\CPP\CppLabs\FirstLab\FirstQuestion\ConsoleApplication1\ConsoleApplication1.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\CPP\CppLabs\FirstLab\FirstQuestion\ConsoleApplication1\ConsoleApplication1.cpp(10,21): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\CPP\CppLabs\FirstLab\FirstQuestion\ConsoleApplication1\ConsoleApplication1.cpp(17,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\CPP\CppLabs\FirstLab\FirstQuestion\ConsoleApplication1\ConsoleApplication1.cpp(22,28): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> D:\CPP\CppLabs\FirstLab\FirstQuestion\x64\Debug\ConsoleApplication1.exe
