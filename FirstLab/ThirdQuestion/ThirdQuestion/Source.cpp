@@ -1,32 +1,36 @@
 #include <iostream>
-#include <random>
-using namespace std;
+
+//Функция strcmp.
+//Формат int strcmp(const char* s1, const char* s2).
+//Функция сравнивает строку s1 со строкой s2 в лексикографическом порядке.Если s1<s2,
+//	то результат равен - 1, если s1 = s2, то 0, если s1>s2, то 1
 
 void processArray() {
 	char s1[30], s2[30];
 
-	cout << "Write first string"<< endl;
-	cin >> s1;
-	cout << "Write second string" << endl;
-	cin >> s2;
-	cout << "Writed strings: " << endl;
-	cout << s1 << endl;
-	cout << s2 << endl;
-	//int strcmp(const char* s1, const char* s2);
-	int flag = strcmp(s1, s2);
-	if (flag == 0)
-	{
-		cout << "Writed strings are similar"<< endl;
+	std::cout << "Write first string"<< std::endl;
+	std::cin >> s1;
+	std::cout << "Write second string" << std::endl;
+	std::cin >> s2;
+	std::cout << "Writed strings: " << std::endl;
+	std::cout << s1 << std::endl;
+	std::cout << s2 << std::endl;
+	
+	int strcmp(const char* s1, const char* s2);
+
+	if (strcmp(s1,s2) == 0) {
+		std::cout << "Writed strings are similar" << std::endl;
 	}
-	else if ( flag > 0)
+	else if (strcmp(s1, s2) > 0)
 	{
-		cout << "First writed string are larger";
+		std::cout << "First writed string are larger";
 	}
-	else if (flag < 0)
+	else if (strcmp(s1,s2) < 0)
 	{
-		cout << "Second writed strind are larger";
+		std::cout << "Second writed strind are larger";
 	}
-	cin.get();
+
+	std::cin.get();
 }
 
 int main() {

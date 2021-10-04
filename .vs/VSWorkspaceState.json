@@ -4,8 +4,9 @@
     "\\FirstLab",
     "\\FirstLab\\SecondQuestion",
     "\\FirstLab\\SecondQuestion\\SecondQuestion",
-    "\\FirstLab\\SecondQuestion\\SecondQuestion\\Debug"
+    "\\FirstLab\\SecondQuestion\\SecondQuestion\\Debug",
+    "\\FirstLab\\ThirdQuestion"
   ],
-  "SelectedNode": "\\FirstLab\\SecondQuestion\\SecondQuestion.sln",
+  "SelectedNode": "\\FirstLab\\SecondQuestion\\SecondQuestion\\SecondQuestion.cpp",
   "PreviewInSolutionExplorer": false
 }

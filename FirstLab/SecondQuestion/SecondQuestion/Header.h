@@ -2,14 +2,24 @@
 using namespace std;
 #pragma once
 
+
 void initialization_array_2D(int** arr, int nRows, int nCols);
 int factorial(int x);
 void print_array_2D(int** arr, int nRows, int nCols);
 int* array_1D(int** arr, int SIZE, int N, int M);
 void print_array_1D(int* arr1D, unsigned int SIZE);
+void FreeArray1D(int array_1D[]) {
+    delete[]array_1D;
+}
+void FreeArray2D(int** aArr2D) {
+    delete[]aArr2D;
+}
+
+
 
 void main()
 {
+    
     const unsigned int nRows = 5;
     const unsigned int nCols = 5;
 
@@ -30,9 +40,13 @@ void main()
     int* arr1D = array_1D(aArr2D, SIZE, nRows, nCols);
 
     print_array_1D(arr1D, SIZE);
-
+    FreeArray1D(arr1D);
+    FreeArray2D(aArr2D);
+    print_array_2D(aArr2D, nRows, nCols);
     cin.get();
 }
+
+
 void initialization_array_2D(int** arr, int nRows, int nCols)
 {
 
