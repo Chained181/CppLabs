@@ -14,11 +14,19 @@ int factorial(int x);
 void print_array_2D(int** arr, int nRows, int nCols);
 int* array_1D(int** arr, int SIZE, int N, int M);
 void print_array_1D(int* arr1D, unsigned int SIZE);
-void FreeArray1D(int array_1D[]) {
-    delete[]array_1D;
+void FreeArray1D(int* array_1D, int SIZE) {
+    for (int i = 0; i < SIZE; i++){ 
+        delete[] &array_1D[i]; 
+    }
+    delete[] array_1D;
+    cout<<"Matrix deleted" << endl;
 }
-void FreeArray2D(int** aArr2D) {
-    delete[]aArr2D;
+void FreeArray2D(int** aArr2D, int nRows) {
+    for (int i = 0; i < nRows; i++)
+        delete[] aArr2D[i];
+
+    delete[] aArr2D;
+    cout <<"Matrix deleted" << endl;
 }
 
 
@@ -46,8 +54,8 @@ void main()
     int* arr1D = array_1D(aArr2D, SIZE, nRows, nCols);
 
     print_array_1D(arr1D, SIZE);
-    FreeArray1D(arr1D);
-    FreeArray2D(aArr2D);
+    FreeArray1D(arr1D, SIZE);
+    FreeArray2D(aArr2D, nRows);
     print_array_2D(aArr2D, nRows, nCols);
     cin.get();
 }
